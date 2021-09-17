@@ -8,15 +8,12 @@ module.exports = {
       'lg': '1024px',
       'xl': '1280px',
       '2xl': '1536px',
-    },
+    }
 
     extend: {},
   },
   variants: {
     extend: {},
   },
-  plugins: [
-    require('daisyui'),
-    require('@tailwindcss/typography'),
-]
+  plugins: [require('daisyui'),],
 }
