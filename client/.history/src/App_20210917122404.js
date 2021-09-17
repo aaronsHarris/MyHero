@@ -1,5 +1,6 @@
 
 import './App.css';
+import { Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Splash from "./components/Splash"
 import { MyRace } from './components/MyRace';
@@ -10,8 +11,6 @@ import { MyAvatar } from './components/MyAvatar';
 import { MyDesc } from './components/MyDesc'
 import { Tavern } from "./components/Tavern";
 import { Details } from './components/Details';
-import { Footer } from './components/Footer';
-import { Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -38,13 +37,12 @@ function App() {
       <Route path="MyDesc">
         <MyDesc />
       </Route>
-      <Route path="/Tavern">
+      <Route>
         <Tavern />
       </Route>
-      <Route path="Details">
+      <Route>
         <Details />
       </Route>
-      <Footer />
     </div>
   );
 }

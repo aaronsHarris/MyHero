@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const CharacterDetails = () => {
+export const MyWeapon = () => {
   return (
     <div>
-      <div></div>
+      my weapon
     </div>
   )
 }

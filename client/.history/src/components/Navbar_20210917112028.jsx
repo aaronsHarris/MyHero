@@ -10,8 +10,8 @@ const Navbar = () => {
       </div>
       <div className="pr-8 md:block hidden">
         <Link className="p-4" to="/">Home</Link>
-        <Link className="p-4" to="/new">Add Hero</Link>
-        <Link className="p-4" to="/Tavern">Tavern</Link>
+        <Link className="p-4" to="/">Add Hero</Link>
+        <Link className="p-4" to="/">Create</Link>
       </div>
     </nav>
   )

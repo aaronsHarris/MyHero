@@ -1,5 +1,6 @@
 
 import './App.css';
+import { Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Splash from "./components/Splash"
 import { MyRace } from './components/MyRace';
@@ -8,17 +9,13 @@ import { MyWeapon } from './components/MyWeapon';
 import { MyArmor } from './components/MyArmor';
 import { MyAvatar } from './components/MyAvatar';
 import { MyDesc } from './components/MyDesc'
-import { Tavern } from "./components/Tavern";
-import { Details } from './components/Details';
-import { Footer } from './components/Footer';
-import { Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Route exact path="/">
-        <Splash />
+      <Splash />
       </Route>
       <Route path="/new">
         <MyRace />
@@ -28,9 +25,9 @@ function App() {
       </Route>
       <Route path="/MyWeapon">
         <MyWeapon />
-      </Route>
+        </Route>
       <Route path="/MyArmor">
-        <MyArmor />
+      <MyArmor />
       </Route>
       <Route path="/MyAvatar">
         <MyAvatar />
@@ -38,13 +35,9 @@ function App() {
       <Route path="MyDesc">
         <MyDesc />
       </Route>
-      <Route path="/Tavern">
+      <Route>
         <Tavern />
       </Route>
-      <Route path="Details">
-        <Details />
-      </Route>
-      <Footer />
     </div>
   );
 }
