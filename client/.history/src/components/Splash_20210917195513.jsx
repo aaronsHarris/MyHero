@@ -13,7 +13,7 @@ const Hero = () => {
             <p className="mb-5">
               Show the world who you are and what kind of Hero you are. Then enter the Tavern and check out all the Heroes from around the world.
             </p>
-            <div classNameName=" flex items-center justify-center bg-cover bg-base-200 ">
+            <div className=" flex items-center justify-center bg-cover bg-base-200 ">
               <div className="p-2 bg-cover bg-base-200 justify-center">
                 <Link to="/new">
                   <button className="btn glass">Create a Hero!</button>
