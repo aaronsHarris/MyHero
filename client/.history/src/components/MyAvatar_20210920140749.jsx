@@ -1,0 +1,134 @@
+
+import { Link, useHistory } from "react-router-dom";
+import { useParams } from 'react-router'
+import { useState, useEffect } from 'react';
+
+export const MyAvatar = (props) => {
+  const { setAvatar } = props
+  const history = useHistory()
+
+
+  const handleClick = (e) => {
+    e.preventDefault()
+    history.push("/MyDesc")
+    switch (e.target.value) {
+      case "image-1":
+        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632162349/dovekin_orpxro.png")
+        break;
+      case "image-2":
+        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632164831/elfLady_owkkwe.png")
+        break;
+      case "":
+        setAvatar("ranger")
+        break;
+      case "rogue":
+        setAvatar("rogue")
+        break;
+      case "dwarf":
+        setAvatar("dwarf")
+        break;
+      case "tiefling":
+        setAvatar("tiefling")
+        break;
+    }
+  }
+
+  return (
+    <div className="sm:h-screen w-screen flex flex-wrap justify-around items-center bg-avatar bg-cover">
+      <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 text-white w-screen">
+        Pick an Avatar
+      </h1>
+      <div className="flex items-center px-4 py-10 m-1">
+        <div className="card glass lg:card-side text-neutral-content">
+          <div className="max-w-md card-body">
+            <h2 className="card-title">Mage</h2>
+            <p>Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.</p>
+            <div className="card-actions justify-center">
+              <Link to="/MyClass">
+                <button className="btn glass rounded-lg" onClick={(e) => handleClick(e)} value="image-1">Submit</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center px-4 py-10 m-1">
+        <div className="card glass lg:card-side text-neutral-content">
+          <div className="max-w-md card-body">
+            <h2 className="card-title">fighter</h2>
+            <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+            <div className="card-actions justify-center">
+              <Link to="/MyClass">
+                <button className="btn glass rounded-lg" onClick={(e) => handleClick(e)} value="fighter">Submit</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center px-4 py-10 m-1">
+        <div className="card glass lg:card-side text-neutral-content">
+          <div className="max-w-md card-body">
+            <h2 className="card-title">Ranger</h2>
+            <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+            <div className="card-actions justify-center">
+              <Link to="/MyClass">
+                <button className="btn glass rounded-lg" onClick={(e) => handleClick(e)} value="ranger">Submit</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center px-4 py-10 m-1">
+        <div className="card glass lg:card-side text-neutral-content">
+          <div className="max-w-md card-body">
+            <h2 className="card-title">Rogue</h2>
+            <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+            <div className="card-actions justify-center">
+              <Link to="/MyClass">
+                <button className="btn glass rounded-lg" onClick={(e) => handleClick(e)} value="rogue">Submit</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center px-4 py-10 m-1">
+        <div className="card glass lg:card-side text-neutral-content">
+          <div className="max-w-md card-body">
+            <h2 className="card-title">Dwarf</h2>
+            <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+            <div className="card-actions justify-center">
+              <Link to="/MyClass">
+                <button className="btn glass rounded-lg" onClick={(e) => handleClick(e)} value="dwarf">Submit</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex items-center px-4 py-10 m-1">
+        <div className="card glass lg:card-side text-neutral-content">
+          <div className="max-w-md card-body">
+            <h2 className="card-title">Tiefling</h2>
+            <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+            <div className="card-actions justify-center">
+              <Link to="/MyClass">
+                <button className="btn glass rounded-lg" onClick={(e) => handleClick(e)} value="tiefling">Submit</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+{/* <button onClick={(e) => handleClick(e)} value="orc">
+  orc
+</button>
+<button onClick={(e) => handleClick(e)} value="halfling">
+  halfling
+</button>
+      <button onClick={(e) => handleClick(e)} value="elf">
+        elf
+      </button>
+<button onClick={(e) => handleClick(e)} value="ranger">
+  ranger
+</button> */}
