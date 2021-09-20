@@ -33,7 +33,23 @@ function App() {
   const [armor, setArmor] = useState("")
   // const [avatar, setAvatar] = useState("")
   // const [description, setDescription] = useState("")
+  const [loading, setLoading] = useState(false)
+  
+  const { id } = useParams()
 
+  useEffect(() => {
+    const fetchHeroes = async () => {
+      const res = await axios.get(URL, config);
+      setHeroes(res.data.records)
+      console.log("app.js line  44", res.data)
+    };
+
+    fetchHeroes();
+  }, [id]);
+
+  if (loading) {
+    return <div>loading...</div>
+  }
   return (
     <div className="text-center my-0 h-screen w-screen">
       <Navbar />

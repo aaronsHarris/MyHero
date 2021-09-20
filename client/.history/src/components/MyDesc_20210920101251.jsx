@@ -36,7 +36,6 @@ export const MyDesc = (props) => {
       alignment,
       info,
     };
-
     console.log(fields)
     const res = await axios.post(URL, { fields }, config);
     console.log("myDesc line 33", res.data);

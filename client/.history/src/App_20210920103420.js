@@ -33,6 +33,9 @@ function App() {
   const [armor, setArmor] = useState("")
   // const [avatar, setAvatar] = useState("")
   // const [description, setDescription] = useState("")
+  
+  
+  const { id } = useParams()
 
   return (
     <div className="text-center my-0 h-screen w-screen">

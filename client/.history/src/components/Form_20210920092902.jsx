@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export const Form = (props) => {
   return (
     <div>
-      <div className="sm:flex justify-center items-center h-screen w-full bg-parchment overflow-auto lg:bg-no-repeat bg-cover">
+      <div className="sm:flex justify-center items-center h-screen w-full bg-parchment lg:bg-no-repeat bg-cover">
         <div className="sm:w-screen lg:w-1/2">
           <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 text-black  items-center">Description
           </h1>
@@ -57,9 +57,9 @@ export const Form = (props) => {
               </textarea>
             </div>
             <div className="p-2">
-
-              <button className="btn glass text-black">{props.type}</button>
-
+              
+                <button className="btn glass text-black">{props.type}</button>
+              </Link>
             </div>
           </form>
         </div>

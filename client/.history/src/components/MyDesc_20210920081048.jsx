@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
 import { Form } from "./Form"
-import { useHistory } from "react-router";
 
 const airtableBase = process.env.REACT_APP_AIRTABLE_BASE;
 const airtableKey = process.env.REACT_APP_AIRTABLE_KEY;
@@ -20,9 +19,8 @@ export const MyDesc = (props) => {
   const [quote, setQuote] = useState("")
   const [alignment, setAlignment] = useState("")
   const [info, setInfo] = useState("")
-  const history = useHistory()
-
-
+  const [input, setInput] = useState()
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     const fields = {
@@ -36,11 +34,9 @@ export const MyDesc = (props) => {
       alignment,
       info,
     };
-
-    console.log(fields)
+      console.log(fields)
     const res = await axios.post(URL, { fields }, config);
     console.log("myDesc line 33", res.data);
-    history.push("/Tavern")
   };
   return (
     <div>
