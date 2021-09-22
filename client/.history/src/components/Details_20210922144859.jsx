@@ -37,7 +37,7 @@ export const Details = () => {
       </figure>
       <div class="justify-center card-body">
         <h2 class="card-title text-5xl">{heroes.fields?.name}</h2>
-        <h3 className="italic card-title text-2xl p-4">{heroes.fields?.title}</h3>
+        <h3 className="italic card-title text-xl p-4">{heroes.fields?.title}</h3>
         <div className=" justify-center max-w-screen-sm">
           <h3 className="text-lg">"{heroes.fields?.quote}"</h3>
           <h3 className=" text-lg">{heroes.fields?.race}</h3>

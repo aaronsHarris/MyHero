@@ -20,7 +20,7 @@ export const TavernCarrds = (props) => {
 
             <div className="sm: justify-center card lg:card-side bordered m-6">
               <img className="max-w-sm h-72" src={hero.fields?.avatar} alt="avatars" />
-              <div className="card-body max-w-screen-sm">
+              <div className="card-body max-w-s">
                 <h2 className="card-title text-5xl">{hero.fields?.name}</h2>
                 <h3 className="italic card-title text-xl">{hero.fields?.title}</h3>
                 <h3 className="text-lg">"{hero.fields?.quote}"</h3>

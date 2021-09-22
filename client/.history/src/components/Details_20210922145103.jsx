@@ -31,7 +31,7 @@ export const Details = () => {
     return <div>loading...</div>
   }
   return (
-    <div class="sm: justify-center card h-screen w-screen image-full bg-tavern overflow-y-auto">
+    <div class="sm: justify-center card shadow-none h-screen w-screen image-full bg-tavern overflow-y-auto">
       <figure>
         <img src={heroes.fields?.avatar} className="lg: max-w-screen" />
       </figure>
