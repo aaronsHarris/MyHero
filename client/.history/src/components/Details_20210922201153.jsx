@@ -32,9 +32,9 @@ export const Details = () => {
   }
   return (
     <div className="sm:h-screen w-screen md:h-screen lg: h-screen">
-      <div class="card lg:card-side bordered h-screen bg-tavern">
+      <div class="card lg:card-side bordered w-screen">
   <figure>
-  <img src={heroes.fields?.avatar} className="lg:rounded-3xl max-h-80" />
+    <img src="https://picsum.photos/id/1005/400/250"/>
   </figure> 
   <div class="card-body">
     <h2 class="card-title">Horizontal</h2> 

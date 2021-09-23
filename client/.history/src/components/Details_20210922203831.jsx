@@ -31,10 +31,10 @@ export const Details = () => {
     return <div>loading...</div>
   }
   return (
-    <div className="sm:h-screen w-screen md:h-screen lg: h-screen">
+    <div className="sm:h-screen w-screen md:h-screen ">
       <div class="card lg:card-side bordered h-screen bg-tavern">
   <figure>
-  <img src={heroes.fields?.avatar} className="lg:rounded-3xl max-h-80" />
+  <img src={heroes.fields?.avatar} className="lg:rounded-3xl " />
   </figure> 
   <div class="card-body">
     <h2 class="card-title">Horizontal</h2> 

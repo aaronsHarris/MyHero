@@ -31,32 +31,18 @@ export const Details = () => {
     return <div>loading...</div>
   }
   return (
-    <div className="sm:h-screen w-screen md:h-screen lg: h-screen">
-      <div class="card lg:card-side bordered h-screen bg-tavern">
-  <figure>
-  <img src={heroes.fields?.avatar} className="lg:rounded-3xl max-h-80" />
-  </figure> 
-  <div class="card-body">
-    <h2 class="card-title">Horizontal</h2> 
-    <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p> 
-    <div class="card-actions">
-      <button class="btn btn-primary">Get Started</button> 
-      <button class="btn btn-ghost">More info</button>
-    </div>
-  </div>
-</div> 
-    </div>
-  )
-
-}
-
-
-{/* <div class="justify-center card-body max-w-md m-auto">
+    <div class="sm:justify-center card h-screen w-screen image-full bg-tavern bg-cover  bg-no-repeat overflow-y-auto lg:">
+      <figure>
+        <img src={heroes.fields?.avatar} className="" />
+      </figure>
+      <div class="justify-center card-body max-w-md m-auto">
         <h2 class="card-title text-7xl mb-2">{heroes.fields?.name}</h2>
         <h3 className="italic card-title text-3xl">{heroes.fields?.title}</h3>
         <div className="">
           <div class="divider m-0"></div>
+          
           <h3 className="text-2xl my-6">"{heroes.fields?.quote}"</h3>
+
           <h3 className="sm:text-2xl font-serif">Race</h3>
           <div className=" w-36 m-auto">
             <div class="divider m-0"></div>
@@ -97,4 +83,8 @@ export const Details = () => {
             <button class="btn glass">Go Back</button>
           </Link>
         </div>
-      </div> */}
+      </div>
+    </div>
+  )
+
+}
