@@ -40,7 +40,7 @@ export const Details = () => {
     <img class="rounded-lg shadow-lg antialiased" src={heroes.fields?.avatar}/>  
   </div>
   <div class="md:w-2/3 w-full px-3 flex flex-row flex-wrap">
-    <div class="w-full text-center  font-semibold relative pt-3 md:pt-0">
+    <div class="w-full text-center text-gray-700 font-semibold relative pt-3 md:pt-0">
               <div class=" text-white leading-tight lg:text-8xl md:text-7xl sm:text-5xl text-3xl">{heroes.fields?.name}</div>
               <div class="text-2xl text-gray-300 hover:text-gray-400 cursor-pointer"><span class="border-b border-dashed border-gray-500 pb-1">{heroes.fields?.title}</span></div>
               <h3 className="text-2xl my-6">"{heroes.fields?.quote}"</h3>
