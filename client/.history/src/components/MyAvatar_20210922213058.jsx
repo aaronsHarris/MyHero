@@ -92,7 +92,7 @@ export const MyAvatar = (props) => {
 
       <AvatarCard bg="card bg-aguefort bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Classy" value="e" handleClick={handleClick} />
       
-      <AvatarCard bg="card bg-mavris bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Cool" value="f" handleClick={handleClick} />
+      <AvatarCard bg="card bg-mavrus bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Cool" value="f" handleClick={handleClick} />
 
       <AvatarCard bg="card bg-ficus bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Wanderer" value="g" handleClick={handleClick} />
 

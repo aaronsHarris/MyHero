@@ -42,7 +42,7 @@ module.exports = {
         'jens': "url('./images.png/jens.png')",
         'kristen': "url('./images.png/kristen_applebees.png')",
         'mac': "url('./images.png/mac.png')",
-        'mavris': "url('./images.png/mavris.png')",
+        'mavris': "url(/images.png/mavris.png')",
         'nayak': "url('./images.png/nayak.jpeg')",
         'tread': "url('./images.png/tread.png')",
         'dave': "url('./images.png/dave.png')",

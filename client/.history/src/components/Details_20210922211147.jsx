@@ -18,45 +18,33 @@ export const Details = () => {
 
 
   useEffect(() => {
-    const fetchHeroes = async () => {
+    const fetchRecipes = async () => {
       const res = await axios.get(`${URL}/${id}`, config);
       setHeroes(res.data);
       setLoading(false)
       console.log(res.data)
     };
 
-    fetchHeroes();
+    fetchRecipes();
   }, [id]);
   if (loading) {
     return <div>loading...</div>
   }
   return (
-    <div class="w-screen h-screen bg-tavern flex flex-row flex-wrap p-3">
-      <div class="my-auto mx-auto w-2/3">
-
-        <div class="rounded-lg shadow-lg bg-gray-600 w-full flex flex-row flex-wrap p-3 antialiased">
-
-          <div class="md:w-1/3 w-full">
-            <img class="rounded-lg shadow-lg antialiased" src={heroes.fields?.avatar} />
-          </div>
-          <div class="md:w-2/3 w-full px-3 flex flex-row flex-wrap">
-            <div class="w-full text-left  font-semibold relative pt-3 md:pt-0">
-              <div class="text-6xl text-white leading-tight">{heroes.fields?.name}</div>
-              <div class="text-normal text-gray-300 hover:text-gray-400 cursor-pointer"><span class="border-b border-dashed border-gray-500 pb-1">{heroes.fields?.title}</span>
-              </div>
-              <h3 className=" mt-4 text-xl">Race: {heroes.fields?.race}</h3>
-              <h3 className=" text-lg">Class: {heroes.fields?.classes}</h3>
-              <h3 className="mb-5 text-lg">Weapon: {heroes.fields?.weapon}</h3>
-
-
-              <h3 className="text-2xl ">Quote: "{heroes.fields?.quote}"</h3>
-
-              <div class="text-sm text-gray-300 hover:text-gray-400 cursor-pointer md:absolute pt-3 md:pt-0 bottom-0 right-0">Last Seen: <b>2 days ago</b></div>
-            </div>
-          </div>
-        </div>
-
-      </div>
+    <div className="sm:h-screen w-screen md:h-screen lg: h-screen">
+      <div class="card lg:card-side bordered h-screen bg-tavern">
+  <figure>
+  <img src={heroes.fields?.avatar} className="sm:w- rounded-3xl max-h-80" />
+  </figure> 
+  <div class="card-body">
+    <h2 class="card-title">Horizontal</h2> 
+    <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p> 
+    <div class="card-actions">
+      <button class="btn btn-primary">Get Started</button> 
+      <button class="btn btn-ghost">More info</button>
+    </div>
+  </div>
+</div> 
     </div>
   )
 

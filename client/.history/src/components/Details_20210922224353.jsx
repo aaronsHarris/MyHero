@@ -46,7 +46,7 @@ export const Details = () => {
               </div>
               <h3 className=" mt-4 text-xl">Race: {heroes.fields?.race}</h3>
               <h3 className=" text-lg">Class: {heroes.fields?.classes}</h3>
-              <h3 className="mb-5 text-lg">Weapon: {heroes.fields?.weapon}</h3>
+              <h3 className="mb-5 text-lg">{heroes.fields?.weapon}</h3>
 
 
               <h3 className="text-2xl ">Quote: "{heroes.fields?.quote}"</h3>

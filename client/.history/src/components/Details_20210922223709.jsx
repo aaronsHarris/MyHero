@@ -43,14 +43,8 @@ export const Details = () => {
             <div class="w-full text-left  font-semibold relative pt-3 md:pt-0">
               <div class="text-6xl text-white leading-tight">{heroes.fields?.name}</div>
               <div class="text-normal text-gray-300 hover:text-gray-400 cursor-pointer"><span class="border-b border-dashed border-gray-500 pb-1">{heroes.fields?.title}</span>
+              <h3 className="text-2xl my-6">Quote: {heroes.fields?.quote}"</h3>
               </div>
-              <h3 className=" mt-4 text-xl">Race: {heroes.fields?.race}</h3>
-              <h3 className=" text-lg">Class: {heroes.fields?.classes}</h3>
-              <h3 className="mb-5 text-lg">Weapon: {heroes.fields?.weapon}</h3>
-
-
-              <h3 className="text-2xl ">Quote: "{heroes.fields?.quote}"</h3>
-
               <div class="text-sm text-gray-300 hover:text-gray-400 cursor-pointer md:absolute pt-3 md:pt-0 bottom-0 right-0">Last Seen: <b>2 days ago</b></div>
             </div>
           </div>
