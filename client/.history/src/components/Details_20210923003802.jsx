@@ -63,9 +63,7 @@ export const Details = () => {
                 title="Info"
                 deets={heroes.fields?.info} />
               <div class="text-lg text-gray-300 hover:text-gray-400 cursor-pointer md:absolute pt-3 md:pt-0  right-0">Created by: <h2 className="text-3xl">Creator</h2></div>
-              <Link to="/Tavern">
-                <button className="btn"><svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg></button>
-              </Link>
+              <button className="btn glass p-8"><svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" /></svg></button>
             </div>
           </div>
         </div>
