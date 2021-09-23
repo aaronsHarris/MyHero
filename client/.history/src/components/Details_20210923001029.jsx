@@ -46,19 +46,21 @@ export const Details = () => {
               <div class="text-2xl text-gray-300 hover:text-gray-400 cursor-pointer">
                 <h2 class="border-b border-dashed border-gray-500 pb-1">{heroes.fields?.title}</h2></div>
               <h3 className="lg:text-4xl md:text-4xl sm:text-2xl my-6">"{heroes.fields?.quote}"</h3>
-              <DetailTitles title="Alignment" deets={heroes.fields?.alignment} />
 
-              <DetailTitles title="Race" deets={heroes.fields?.race} />
 
-              <DetailTitles title="Class" deets={heroes.fields?.classes} />
+              <DetailTitles title="Alignment" deets={heroes.fields?.alignment}/>
+
+              <DetailTitles title="Race" deets={heroes.fields?.race}/>
+              
+              <DetailTitles title="Class" deets={heroes.fields?.classes}/>
 
               <DetailTitles title="Weapon" deets={heroes.fields?.weapon} />
 
               <DetailTitles title="Armor" deets={heroes.fields?.armor} />
+              
 
-              <DetailTitles title="Info" deets={heroes.fields?.info} />
-
-              <div class="text-lg text-gray-300 hover:text-gray-400 cursor-pointer md:absolute pt-3 md:pt-0  right-0">Last Seen: <b>2 days ago</b></div>
+              <DetailTitles title="Info" deets={heroes.fields?.alignment}/>
+              <div class="text-sm text-gray-300 hover:text-gray-400 cursor-pointer md:absolute pt-3 md:pt-0 bottom-0 right-0">Last Seen: <b>2 days ago</b></div>
             </div>
           </div>
         </div>

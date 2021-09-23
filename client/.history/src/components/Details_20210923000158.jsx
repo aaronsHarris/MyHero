@@ -46,19 +46,38 @@ export const Details = () => {
               <div class="text-2xl text-gray-300 hover:text-gray-400 cursor-pointer">
                 <h2 class="border-b border-dashed border-gray-500 pb-1">{heroes.fields?.title}</h2></div>
               <h3 className="lg:text-4xl md:text-4xl sm:text-2xl my-6">"{heroes.fields?.quote}"</h3>
-              <DetailTitles title="Alignment" deets={heroes.fields?.alignment} />
 
-              <DetailTitles title="Race" deets={heroes.fields?.race} />
+              <h2 className="text-3xl">Alignment</h2>
+              <div className=" w-36 m-auto">
+                <div class="divider m-0"></div>
+              </div>
+              <h3 className=" text-lg mb-4">{heroes.fields?.alignment}</h3>
 
-              <DetailTitles title="Class" deets={heroes.fields?.classes} />
+              <DetailTitles Title=/>
 
-              <DetailTitles title="Weapon" deets={heroes.fields?.weapon} />
+              <h2 className="text-3xl">Class</h2>
+              <div className=" w-36 m-auto">
+                <div class="divider m-0"></div>
+              </div>
+              <h3 className=" text-lg mb-4">{heroes.fields?.classes}</h3>
 
-              <DetailTitles title="Armor" deets={heroes.fields?.armor} />
+              <h2 className="text-3xl">Race</h2>
+              <div className=" w-36 m-auto">
+                <div class="divider m-0"></div>
+              </div>
+              <h3 className=" text-lg">{heroes.fields?.weapon}</h3>
+              <h2 className="text-3xl">Race</h2>
+              <div className=" w-36 m-auto">
+                <div class="divider m-0"></div>
+              </div>
+              <h3 className=" text-lg">{heroes.fields?.armor}</h3>
+              <h2 className="text-3xl">Race</h2>
+              <div className=" w-36 m-auto">
+                <div class="divider m-0"></div>
+              </div>
+              <p className="mx-auto overflow-ellipsis text-lg">{heroes.fields?.info}</p>
 
-              <DetailTitles title="Info" deets={heroes.fields?.info} />
-
-              <div class="text-lg text-gray-300 hover:text-gray-400 cursor-pointer md:absolute pt-3 md:pt-0  right-0">Last Seen: <b>2 days ago</b></div>
+              <div class="text-sm text-gray-300 hover:text-gray-400 cursor-pointer md:absolute pt-3 md:pt-0 bottom-0 right-0">Last Seen: <b>2 days ago</b></div>
             </div>
           </div>
         </div>
