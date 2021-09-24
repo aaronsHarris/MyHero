@@ -12,7 +12,7 @@ export const TavernCarrds = (props) => {
         {heroes.map((hero) => {
           return (
             <div className="sm: justify-center card lg:card-side bordered m-6">
-              <img className="max-w-sm h-72" src={hero.fields?.avatar} alt="avatars" />
+              <img className="max-w-sm h-72" src={hero.fields?.avatar} alt="avatars"  key={/>
               <div className="card-body max-w-screen-sm">
                 <h2 className="card-title text-5xl">{hero.fields?.name}</h2>
                 <h3 className="italic card-title text-xl">{hero.fields?.title}</h3>

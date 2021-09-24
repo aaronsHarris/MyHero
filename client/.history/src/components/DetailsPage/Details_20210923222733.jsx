@@ -32,13 +32,10 @@ export const Details = () => {
 
   return (
     <div className="min-w-screen min-h-screen bg-tavern bg-no-repeat  bg-cover overflow-y-auto flex justify-center items-center">
-      
       <div className="sm:grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 ">
-
         <div className="p-3 row-span-2 col-span-1">
           <img className="rounded-lg shadow-lg" src={heroes.fields?.avatar} />
         </div>
-
         <div className="p-3 col-span-2">
           <DetailHeader
             name={heroes.fields?.name}

@@ -9,8 +9,8 @@ const Hero = () => {
           <h1 className="lg:text-8xl md:text-7xl sm:text-5xl text-3xl font-black my-4 bg-clip-text">Welcome Hero
           </h1>
         </div>
-        <div className="p-4 col-span-2 max-w-md mx-auto">
-          <p className=" text-3xl">
+        <div className="p-4 col-span-2 max-w-screen-md">
+          <p className=" text-2xl">
           Show the world who you are and what kind of Hero you are. Then enter the Tavern and check out all the Heroes from around the world.
         </p>
         </div>

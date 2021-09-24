@@ -12,6 +12,9 @@ export const Footer = () => {
         <p>Copyright © 2021 - All right reserved</p>
       </div>
       <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        
+        
+          
       </div>
     </footer>
 

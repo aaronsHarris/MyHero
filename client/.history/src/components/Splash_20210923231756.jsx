@@ -10,7 +10,7 @@ const Hero = () => {
           </h1>
         </div>
         <div className="p-4 col-span-2 max-w-md mx-auto">
-          <p className=" text-3xl">
+          <p className=" text-4xl">
           Show the world who you are and what kind of Hero you are. Then enter the Tavern and check out all the Heroes from around the world.
         </p>
         </div>
