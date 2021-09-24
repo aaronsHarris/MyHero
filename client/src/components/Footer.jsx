@@ -1,17 +1,22 @@
 import { Logo } from "./Logo"
 
 
+
 export const Footer = () => {
   return (
 
-    <footer className="items-center footer bg-neutral text-white">
-      <div className="flex items-center">
-
+    <footer className=" footer bg-primary text-primary-content footer-center">
+      <div>
         <Logo />
-
+        <p className="font-bold">ACME Industries Ltd.
+          <br />Providing reliable tech since 1992
+        </p>
         <p>Copyright © 2021 - All right reserved</p>
       </div>
-      <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <div>
+        <div className="grid grid-flow-col gap-4">
+
+        </div>
       </div>
     </footer>
 
