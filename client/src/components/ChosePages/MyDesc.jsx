@@ -38,6 +38,7 @@ export const MyDesc = (props) => {
       avatar,
       creator,
     };
+    // eslint-disable-next-line
     const res = await axios.post(URL, { fields }, config);
     history.push("/Tavern")
   };
