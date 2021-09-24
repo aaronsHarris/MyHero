@@ -31,8 +31,7 @@ export const MyRace = (props) => {
       case "Tiefling":
         setRace("Tiefling")
         break;
-      default: setRace("none")
-        break
+      default ("none")
     }
   }
 

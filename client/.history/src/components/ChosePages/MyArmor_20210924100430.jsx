@@ -29,8 +29,7 @@ export const MyArmor = (props) => {
       case "khakis":
         setArmor("khakis")
         break;
-      default: setArmor("none")
-        break
+      default: "none
     }
   }
 

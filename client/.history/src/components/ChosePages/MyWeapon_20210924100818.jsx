@@ -29,8 +29,7 @@ export const MyWeapon = (props) => {
       case "Verbal Abuse":
         setWeapon("Verbal Abuse")
         break;
-      default: setWeapon("none")
-        break
+      default ("none")
     }
   }
 

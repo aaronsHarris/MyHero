@@ -29,8 +29,7 @@ export const MyClass = (props) => {
       case "Cleric":
         setClasses("Cleric")
         break;
-        default: setClasses("none")
-        break
+      default
     }
   }
 

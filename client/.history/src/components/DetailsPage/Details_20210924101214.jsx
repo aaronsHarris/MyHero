@@ -36,9 +36,9 @@ export const Details = () => {
       <div className="sm:grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 ">
 
         <div className="p-3 row-span-2 col-span-1">
-          <img className="rounded-lg shadow-lg" src={heroes.fields?.avatar} alt="avatar"/>
+          <img className="rounded-lg shadow-lg" src={heroes.fields?.avatar} atl="/>
         </div>
-          
+
         <div className="p-3 col-span-2">
           <DetailHeader
             name={heroes.fields?.name}
@@ -79,3 +79,50 @@ export const Details = () => {
 
 
 
+{/* <div className="my-auto mx-auto w-2/3">
+        <div className="rounded-lg shadow-lg  w-full flex flex-row flex-wrap p-3 antialiased">
+          <div className="md:w-1/3 w-full lg: mt-20">
+            <img className="rounded-lg shadow-lg antialiased bg-yellow-500" src={heroes.fields?.avatar} />
+          </div>
+          <div className="md:w-2/3 w-full px-3 flex flex-row flex-wrap">
+            <div className="w-full text-center  font-semibold relative pt-3 md:pt-0">
+              <div className="container bg-red-500">
+              <DetailHeader
+                name={heroes.fields?.name}
+                title={heroes.fields?.title}
+                  quote={heroes.fields?.quote} />
+              </div>
+              <div className="container bg-blue-500">
+              <DetailTitles
+                title="Alignment"
+                deets={heroes.fields?.alignment} />
+              <DetailTitles
+                title="Race"
+                deets={heroes.fields?.race} />
+              <DetailTitles
+                title="Class"
+                  deets={heroes.fields?.classes} />
+              </div>
+              <div className="container bg-green-700">
+              <DetailTitles
+                title="Weapon"
+                deets={heroes.fields?.weapon} />
+              <DetailTitles
+                title="Armor"
+                  deets={heroes.fields?.armor} />
+              </div>
+              <div className="container bg-purple-600">
+              <DetailTitles
+                title="Info"
+                  deets={heroes.fields?.info} />
+                </div>
+
+              <div className="text-lg text-gray-300 hover:text-gray-400 cursor-pointer md:absolute pt-3 md:pt-0  right-0">Created by: <h2 className="text-3xl">Creator</h2></div>
+              <Link to="/Tavern">
+                <button className="btn"><svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg></button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+      </div> */}

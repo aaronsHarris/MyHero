@@ -30,7 +30,6 @@ export const MyWeapon = (props) => {
         setWeapon("Verbal Abuse")
         break;
       default: setWeapon("none")
-        break
     }
   }
 

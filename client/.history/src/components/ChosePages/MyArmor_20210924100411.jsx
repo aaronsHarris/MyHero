@@ -27,10 +27,9 @@ export const MyArmor = (props) => {
         setArmor("no-armor")
         break;
       case "khakis":
-        setArmor("khakis")
+       setArmor("khakis")
         break;
-      default: setArmor("none")
-        break
+      default: 
     }
   }
 
@@ -40,22 +39,22 @@ export const MyArmor = (props) => {
         Choose your Armor
       </h1>
 
-      <Cards bg-image="" title="Robe" value="robe" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
+      <Cards bg-image=""title="Robe" value="robe" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
         handleClick={handleClick} />
-
+      
       <Cards title="Heavy Armor" value="heavy-armor" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
         handleClick={handleClick} />
-
+      
       <Cards title="Leather Armor" value="leather-armor" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
         handleClick={handleClick} />
 
-      <Cards title="Cloak" value="cloak" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
+        <Cards title="Cloak" value="cloak" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
         handleClick={handleClick} />
-
+      
       <Cards title="Shirtless" value="no-armor" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
         handleClick={handleClick} />
 
-      <Cards title="Khakis" value="khakis" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
+        <Cards title="Khakis" value="khakis" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
         handleClick={handleClick} />
     </div>
   )

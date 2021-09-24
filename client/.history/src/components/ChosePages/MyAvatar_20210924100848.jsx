@@ -72,8 +72,7 @@ export const MyAvatar = (props) => {
       case "t":
         setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632193494/Gilear2_mkzk6j.png")
         break;
-      default: setAvatar("none")
-        break
+      default: ("none")
 
     }
   }
