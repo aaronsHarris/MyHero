@@ -5,11 +5,11 @@ export const DetailTitles = (props) => {
 
   return (
     <>
-      <h2 className="text-3xl">{title}</h2>
+      <h2 className="text-5xl">{title}</h2>
       <div className=" w-36 m-auto">
         <div className="divider m-0"></div>
       </div>
-      <h3 className=" text-lg mb-4">{deets}</h3>
+      <h3 className=" text-2xl mb-4">{deets}</h3>
     </>
   )
 }

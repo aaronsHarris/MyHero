@@ -30,18 +30,13 @@ module.exports = {
       fontFamily: {
         'fleur': ['Fleur De Leah'],
         'tangerine': ['Tangerine'],
-        'cici': ['Meddon']
+        'cici': ['Meddon'],
+        'olde': ['UnifrakturMaguntia'],
       },
       backgroundImage: {
-        'forest': "url('./images.png/forest.jpeg')",
-        'fire': "url('./images.png/fire.jpeg')",
+        
         'dragon': "url('./images.png/dragonBG.jpeg')",
-        'armor': "url('./images.png/MyArmor.jpeg')",
-        'weapon': "url('./images.png/MyWeapon.jpeg')",
         'tavern': "url('./images.png/tavern2.jpeg')",
-        'avatar': "url('./images.png/avatar_bg.jpeg')",
-        'parchment': "url('./images.png/p6.jpeg')",
-        'dovekin': "url('./images.png/dovekin.png')",
         'hardwon': "url('./images.png/hadwon.png')",
         'bev': "url('./images.png/bev_0.png')",
         'moonshine': "url('./images.png/moonshine.png')",

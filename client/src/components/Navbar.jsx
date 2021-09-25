@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Logo } from './Logo'
 const Navbar = ({ toggle }) => {
   return (
-    <nav className='flex justify-between items-center h-16 bg-base-300 text-white sticky top-0 shadow-lg font-sans z-10' role='navigation'>
+    <nav className='flex justify-between items-center h-16 bg-base-300 text-white sticky top-0 shadow-lg z-10 font-baloo' role='navigation'>
       <Link to='/' className=' lg:pl-20 text-3xl'>MyHero</Link>
       <div className="pl-56">
       <Logo />

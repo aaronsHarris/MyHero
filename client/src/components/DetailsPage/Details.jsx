@@ -1,5 +1,5 @@
 import { Logo } from '../Logo';
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { useEffect, useState } from "react";
 import axios from 'axios';
 import { DetailTitles } from './DetailTitles'
@@ -33,13 +33,13 @@ export const Details = () => {
 
   return (
     <div className="min-w-screen min-h-screen bg-tavern bg-no-repeat  bg-cover overflow-y-auto flex justify-center items-center">
-      
+
       <div className="sm:grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 ">
 
         <div className="p-3 row-span-2 col-span-1">
-          <img className="rounded-lg shadow-lg" src={heroes.fields?.avatar} alt="avatar"/>
+          <img className="rounded-lg shadow-lg" src={heroes.fields?.avatar} alt="avatar" />
         </div>
-          
+
         <div className="p-3 col-span-2">
           <DetailHeader
             name={heroes.fields?.name}
@@ -69,10 +69,14 @@ export const Details = () => {
             deets={heroes.fields?.creator}
           />
         </div>
-        <div className="col-span-3 row-span-2 px-3">
+        <div className="col-span-3 row-span-2 px-3 mx-auto">
           <DetailTitles
             title="Info"
-            deets={heroes.fields?.info} /></div>
+            deets={heroes.fields?.info} />
+        </div>
+        <Link to="/Tavern" className="col-span-3">
+          <button className="btn glass mx-auto col-span-3 mb-24 justify-self-auto hover:-translate-y-.5 transform transition hover:bg-red-900">Go Back</button>
+        </Link>
       </div>
     </div>
   )
