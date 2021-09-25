@@ -35,7 +35,7 @@ export const MyClass = (props) => {
   }
 
   return (
-    <div className="sm:h-screen w-screen flex flex-wrap justify-around items-center bg-fire bg-cover overflow-y-auto md:h-screen lg:h-screen">
+    <div className="sm:h-screen w-screen flex flex-wrap justify-around items-center bg-gradient-to-b from-black via-black to-blue-500 bg-cover overflow-y-auto md:h-screen lg:h-screen">
       <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 text-white w-screen">
         Choose a Class
       </h1>

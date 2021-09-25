@@ -15,17 +15,16 @@ const Hero = () => {
         </p>
         </div>
         
-          <div className="grid flex-grow h-32 card glass rounded-box place-items-center">
-            <Link to="/Tavern">
-              <button className="btn glass">The Tavern</button>
-            </Link>
-          </div>
-        
-        <div className="grid flex-grow h-32 card glass rounded-box place-items-center">
-          <Link to="/Tavern">
-            <button className="btn glass">The Tavern</button>
-          </Link>
+        <Link to="/new">
+          <div className="grid flex-grow h-32 card glass rounded-box place-items-center text-3xl hover:-translate-y-5 transform transition ">
+            Create a Hero
         </div>
+          </Link>
+          <Link to="/Tavern">
+          <div className="grid flex-grow h-32 card glass rounded-box place-items-center text-3xl hover:-translate-y-5 transform transition">
+            The Tavern
+        </div>
+          </Link>
 
       </div>
     </div>

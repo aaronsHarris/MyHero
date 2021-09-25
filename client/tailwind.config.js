@@ -19,6 +19,14 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
+        'wiggle': 'wiggle 1s ease-in-out infinite'
+      },
+      wiggle: {
+        '0%, 100%': { transform: 'rotate(-3deg)' },
+        '50%': { transform: 'rotate(3deg)' },
+      },
       backgroundImage: {
         'forest': "url('./images.png/forest.jpeg')",
         'fire': "url('./images.png/fire.jpeg')",
@@ -52,6 +60,7 @@ module.exports = {
         'esther': "url('./images.png/Esther_Sinclair.jpeg')",
         'jawbone': "url('./images.png/Jawbone_Reformed.png')",
       }
+      
     },
   },
   variants: {

@@ -5,7 +5,7 @@ import { Logo } from "./Logo"
 export const Footer = () => {
   return (
 
-    <footer className=" footer bg-primary text-primary-content footer-center">
+    <footer className=" footer bg-base-300 text-primary-content footer-center">
       <div>
         <Logo />
         <p className="font-bold">ACME Industries Ltd.

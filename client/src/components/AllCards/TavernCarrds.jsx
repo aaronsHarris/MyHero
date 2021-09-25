@@ -11,7 +11,7 @@ export const TavernCarrds = (props) => {
       <div className=" sm:min-h-screen w-screen flex flex-wrap justify-center items-center bg-cover overflow-y-auto bg-no-repeat lg:bg-no-repeat min-h-screen mb-auto">
         {heroes.map((hero, index) => {
           return (
-            <div className="sm: justify-center card lg:card-side bordered m-6" key={ index}>
+            <div className="sm: justify-center card lg:card-side bordered m-6 hover:-translate-y-2 transform transition" key={ index}>
               <img className="max-w-sm h-72" src={hero.fields?.avatar} alt="avatars" />
               <div className="card-body max-w-screen-sm">
                 <h2 className="card-title text-5xl">{hero.fields?.name}</h2>
@@ -19,7 +19,7 @@ export const TavernCarrds = (props) => {
                 <h3 className="text-lg">"{hero.fields?.quote}"</h3>
                 <div className="card-actions justify-center">
                   <Link to={`/Details/${hero.id}`}>
-                    <button className="btn glass" onClick={toggle}>See More</button>
+                    <button className="btn glass hover:-translate-y-.5 transform transition hover:bg-red-900" onClick={toggle}>See More</button>
                   </Link>
                 </div>
               </div>

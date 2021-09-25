@@ -35,7 +35,7 @@ export const MyWeapon = (props) => {
   }
 
   return (
-    <div className="sm:h-screen w-screen flex flex-wrap justify-around items-center bg-weapon bg-cover overflow-y-auto">
+    <div className="sm:h-screen w-screen flex flex-wrap justify-around items-center bg-gradient-to-b from-black via-black to-gray-500 bg-cover overflow-y-auto">
       <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 text-white w-screen">
         Choose a Weapon
       </h1>

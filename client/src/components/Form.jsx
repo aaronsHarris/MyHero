@@ -3,9 +3,9 @@ import { Input } from "./Input"
 export const Form = (props) => {
   return (
     <div>
-      <div className="sm:flex flex-wrap justify-around items-center h-screen w-full bg-parchment overflow-auto lg:bg-no-repeat bg-cover">
+      <div className="sm:flex flex-wrap justify-around items-center h-screen w-full bg-gradient-to-b from-black via-black to-yellow-700 overflow-auto lg:bg-no-repeat bg-cover">
         <div className="sm:w-screen lg:w-1/2">
-          <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 text-black  items-center">Description</h1>
+          <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 text-white  items-center">Description</h1>
           <form onSubmit={props.handleSubmit}>
 
             <Input
@@ -33,8 +33,8 @@ export const Form = (props) => {
               changer={(e) => props.setAlignment(e.target.value)}
             />
             <div className="flex flex-col mb-4">
-              <label className="mb-2 font-bold text-2xl text-gray-900">My Description</label>
-              <textarea className="textarea h-24 textarea-ghost text-center"
+              <label className="mb-2 font-bold text-2xl text-gray-200">My Description</label>
+              <textarea className="textarea h-24 bg-gray-500 text-center text-lg"
                 placeholder="As a knight for the kingdom I always fight for the kingdom!"
                 type="text"
                 value={props.info}
@@ -49,7 +49,7 @@ export const Form = (props) => {
               changer={(e) => props.setCreator(e.target.value)}
             />
             <div className="p-2">
-              <button className="btn glass text-black">{props.type}</button>
+              <button className="btn glass text-black hover:-translate-y-1 transform transition hover:bg-indigo-900">{props.type}</button>
             </div>
           </form>
         </div>
