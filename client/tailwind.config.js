@@ -27,6 +27,11 @@ module.exports = {
         '0%, 100%': { transform: 'rotate(-3deg)' },
         '50%': { transform: 'rotate(3deg)' },
       },
+      fontFamily: {
+        'fleur': ['Fleur De Leah'],
+        'tangerine': ['Tangerine'],
+        'cici': ['Meddon']
+      },
       backgroundImage: {
         'forest': "url('./images.png/forest.jpeg')",
         'fire': "url('./images.png/fire.jpeg')",

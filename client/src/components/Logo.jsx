@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Logo = () => {
   return (
-    <div>
+    <div className="flex justify-center">
       <svg className="h-20 fill-current animate-spin-slow"version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
           viewBox="0 0 1000 1000"  >
           <path className="st0" d="M867.9,500.5c0-61.9-0.2-123.9,0.2-185.8c0.1-9.4-3.1-16.8-8.6-23.8c-4.8-6.1-10.6-11.2-17-15.7

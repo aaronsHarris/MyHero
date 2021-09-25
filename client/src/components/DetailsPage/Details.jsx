@@ -1,3 +1,4 @@
+import { Logo } from '../Logo';
 import { useParams } from 'react-router-dom'
 import { useEffect, useState } from "react";
 import axios from 'axios';
@@ -27,7 +28,7 @@ export const Details = () => {
     fetchHeroes();
   }, [id]);
   if (loading) {
-    return <div>loading...</div>
+    return <div><Logo /></div>
   }
 
   return (
