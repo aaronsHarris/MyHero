@@ -28,20 +28,17 @@ module.exports = {
         '50%': { transform: 'rotate(3deg)' },
       },
       fontFamily: {
-        'fleur': ['Fleur De Leah'],
-        'tangerine': ['Tangerine'],
-        'cici': ['Meddon'],
         'olde': ['UnifrakturMaguntia'],
+        'hand': ['Patrick Hand']
       },
       backgroundImage: {
-        
+
         'dragon': "url('./images.png/dragonBG.jpeg')",
         'tavern': "url('./images.png/tavern2.jpeg')",
         'hardwon': "url('./images.png/hadwon.png')",
         'bev': "url('./images.png/bev_0.png')",
         'moonshine': "url('./images.png/moonshine.png')",
         'riz': "url('./images.png/riz-gukgak.png')",
-        'elfLady': "url('./images.png/elfLady.png')",
         'adaine': "url('./images.png/Adaine_Abernant.png')",
         'fabian': "url('./images.png/fabian_seacaster.png')",
         'ficus': "url('./images.png/ficus.jpeg')",
@@ -60,7 +57,7 @@ module.exports = {
         'esther': "url('./images.png/Esther_Sinclair.jpeg')",
         'jawbone': "url('./images.png/Jawbone_Reformed.png')",
       }
-      
+
     },
   },
   variants: {

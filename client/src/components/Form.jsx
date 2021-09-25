@@ -5,7 +5,7 @@ export const Form = (props) => {
     <div>
       <div className="sm:flex flex-wrap justify-around items-center h-screen w-full bg-gradient-to-b from-black via-black to-yellow-700 overflow-auto lg:bg-no-repeat bg-cover">
         <div className="sm:w-screen lg:w-1/2">
-          <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 text-white  items-center">Description</h1>
+          <h1 className="font-serif lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 text-white  items-center">Description</h1>
           <form onSubmit={props.handleSubmit}>
 
             <Input

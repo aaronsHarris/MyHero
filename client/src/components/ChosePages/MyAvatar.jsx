@@ -80,7 +80,7 @@ export const MyAvatar = (props) => {
 
   return (
     <div className="sm:h-screen w-screen flex flex-wrap justify-around items-center bg-gradient-to-b from-black via-black to-green-500 bg-cover overflow-y-auto">
-      <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 text-white w-screen">
+      <h1 className="font-serif lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14 text-white w-screen">
         Pick an Avatar
       </h1>
 
@@ -100,7 +100,7 @@ export const MyAvatar = (props) => {
 
       <AvatarCard bg="card bg-mac bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Hipster" value="h" handleClick={handleClick} />
 
-      <AvatarCard bg="card bg-dave bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Hipster" value="i" handleClick={handleClick} />
+      <AvatarCard bg="card bg-dave bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Frat boy" value="i" handleClick={handleClick} />
 
       <AvatarCard bg="card bg-adaine bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Mystical" value="j" handleClick={handleClick} />
 
@@ -120,7 +120,7 @@ export const MyAvatar = (props) => {
 
       <AvatarCard bg="card bg-tread bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Sensitive" value="r" handleClick={handleClick} />
 
-      <AvatarCard bg="card bg-jawbone bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="reformed" value="s" handleClick={handleClick} />
+      <AvatarCard bg="card bg-jawbone bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Reformed" value="s" handleClick={handleClick} />
 
       <AvatarCard bg="card bg-gilear bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Divorced" value="t" handleClick={handleClick} />
 
