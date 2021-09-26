@@ -30,7 +30,7 @@ export const MyClass = (props) => {
         setClasses("Cleric")
         break;
       case "Sorceror":
-        setClasses("sorceror")
+        setClasses("Sorceror")
         break;
       case "Bard":
         setClasses("Bard")
@@ -69,12 +69,12 @@ export const MyClass = (props) => {
 
       <Cards title="Sorceror" value="Sorceror" text="A spellcaster who draws on inherent magic from a gift or bloodline. Some sorcerers wield magic that springs from an ancient bloodline infused with the magic of dragons."
         handleClick={handleClick} />
-      
+
       <Cards title="Bard" value="Bard" text="Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds."
         handleClick={handleClick} />
-      
+
       <Cards title="Paladin" value="Paladin" text="A paladin swears to uphold justice and righteousness, to stand with the good things of the world against the encroaching darkness, and to hunt the forces of evil wherever they lurk."
-      handleClick={handleClick} />
+        handleClick={handleClick} />
     </div>
   )
 }
