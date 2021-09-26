@@ -11,7 +11,7 @@ const Hero = () => {
         </div>
         <div className="p-4 col-span-2 max-w-md mx-auto">
           <p className=" text-3xl font-hand">
-          Show the world who you are and what kind of Hero you are. Then enter the Tavern and check out all the Heroes from around the world.
+          Create your own fantasy character to share with friends and inspire you in your next RPG or Coplay.<br/> Then enter "Ye Olde Tavern" to see charaters made by users all over the World!
         </p>
         </div>
         

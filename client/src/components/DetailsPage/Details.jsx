@@ -32,7 +32,7 @@ export const Details = () => {
   }
 
   return (
-    <div className="min-w-screen min-h-screen bg-tavern bg-no-repeat  bg-cover overflow-y-auto flex justify-center items-center">
+    <div className="sm:min-w-screen min-h-screen flex justify-center items-center bg-black text-white font-hand lg:bg-tavern bg-no-repeat bg-cover overflow-y-auto">
 
       <div className="sm:grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 ">
 

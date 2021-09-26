@@ -8,7 +8,7 @@ export const TavernCarrds = (props) => {
       <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl mb-14 shadow-lg font-bold text-transparent bg-clip-text bg-gradient-to-b from-yellow-700  via-yellow-300 to-white font-olde pt-10">
         Ye Olde Tavern
       </h1>
-      <div className=" sm:min-h-screen w-screen flex flex-wrap justify-center items-center bg-cover overflow-y-auto bg-no-repeat lg:bg-no-repeat min-h-screen mb-auto">
+      <div className=" sm:min-h-screen w-screen flex flex-wrap justify-center items-center bg-cover overflow-y-auto bg-no-repeat lg:bg-no-repeat min-h-screen mb-auto text-white">
         {heroes.map((hero, index) => {
           return (
             <div className="font-hand sm: justify-center card lg:card-side bordered m-6 hover:-translate-y-2 transform transition" key={ index}>
