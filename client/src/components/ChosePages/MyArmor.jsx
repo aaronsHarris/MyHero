@@ -11,11 +11,11 @@ export const MyArmor = (props) => {
     e.preventDefault()
     history.push("/MyAvatar")
     switch (e.target.value) {
-      case "robe":
-        setArmor("robe")
+      case "Robe of Enchantment":
+        setArmor("Robe of Enchantment")
         break;
-      case "heavy-armor":
-        setArmor("heavy-armor")
+      case "Heavy Armor":
+        setArmor("Heavy Armor")
         break;
       case "leather-armor":
         setArmor("leather-armor")
@@ -29,6 +29,15 @@ export const MyArmor = (props) => {
       case "khakis":
         setArmor("khakis")
         break;
+      case "Orb of Protection":
+        setArmor("Orb of Protection")
+        break;
+      case "Light Armor":
+        setArmor("Light Armor")
+        break;
+      case "Run Away":
+        setArmor("Run Away")
+        break;
       default: setArmor("none")
         break
     }
@@ -40,22 +49,31 @@ export const MyArmor = (props) => {
         Choose your Armor
       </h1>
 
-      <Cards bg-image="" title="Robe" value="robe" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
+      <Cards title="Robe of Enchantment" value="Robe of Enchantment" text="You have infused your plain robe with magical runes to protect you or enhance your magical prowess"
         handleClick={handleClick} />
 
-      <Cards title="Heavy Armor" value="heavy-armor" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
+      <Cards title="Heavy Armor" value="Heavy Armor" text="Made of obsedian and netherite. You dare anyone to attempt to pierce your armor."
         handleClick={handleClick} />
 
-      <Cards title="Leather Armor" value="leather-armor" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
+      <Cards title="Leather Armor" value="leather-armor" text="After you've taken down a wild beast you tan and stitch together the hide to make a custom piece of protection."
         handleClick={handleClick} />
 
-      <Cards title="Cloak" value="cloak" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
+      <Cards title="Cloak of Hiding" value="cloak" text="With a hood up and concealed hands, you hide your identity from the world until your time to strike."
         handleClick={handleClick} />
 
-      <Cards title="Shirtless" value="no-armor" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
+      <Cards title="Shirtless" value="no-armor" text="You dont need clad armor to protect you! Your only weakness is the one statement... No Shoes, No Shirt, No Service."
         handleClick={handleClick} />
 
-      <Cards title="Khakis" value="khakis" text="erum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente."
+      <Cards title="Khakis" value="khakis" text="They match your corduroy sweater perfectly. Its style and comfort. Whats not to like?"
+        handleClick={handleClick} />
+      
+      <Cards title="Orb of Protection" value="Orb of Protection" text="You hold this giant orb and speak the magic words as a protection field sorounds you."
+        handleClick={handleClick} />
+      
+      <Cards title="Light Armor" value="Light Armor" text="Move swift, move light. Less weight means more damage. Race across the battlefield with ease."
+        handleClick={handleClick} />
+      
+      <Cards title="Run Away" value="Run Away" text="They can't hit what they can't touch! No one can hurt you as you race home for tea."
         handleClick={handleClick} />
     </div>
   )

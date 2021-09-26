@@ -13,13 +13,13 @@ export const MyAvatar = (props) => {
     history.push("/MyDesc")
     switch (e.target.value) {
       case "a":
-        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632165423/hadwon_gyxf2y.png")
+        setAvatar("https://www.naddpod.com/assets/campaigns/bahumia/hardwon.png")
         break;
       case "b":
-        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632167815/bev_0_ky0v3m.png")
+        setAvatar("https://www.naddpod.com/assets/campaigns/bahumia/beverly.png")
         break;
       case "c":
-        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632167870/moonshine_vnrcdl.png")
+        setAvatar("https://www.naddpod.com/assets/campaigns/bahumia/moonshine.png")
         break;
       case "d":
         setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632168086/riz-gukgak_sba45t.png")
@@ -49,7 +49,7 @@ export const MyAvatar = (props) => {
         setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632193433/Esther_Sinclair_etwpt7.jpg")
         break;
       case "m":
-        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632193564/jens_krccjv.png")
+        setAvatar("https://www.naddpod.com/assets/campaigns/trinyvale/nyack.png")
         break;
       case "n":
         setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632194581/nayak_pywspz.jpg")
@@ -110,7 +110,7 @@ export const MyAvatar = (props) => {
 
       <AvatarCard bg="card bg-jens bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Fancy" value="m" handleClick={handleClick} />
 
-      <AvatarCard bg="card bg-nayak bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Jungle" value="n" handleClick={handleClick} />
+      <AvatarCard bg="card bg-nyak bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Jungle" value="n" handleClick={handleClick} />
 
       <AvatarCard bg="card bg-fig bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Metal" value="o" handleClick={handleClick} />
 

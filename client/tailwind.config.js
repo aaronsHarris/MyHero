@@ -35,9 +35,9 @@ module.exports = {
 
         'dragon': "url('./images.png/dragonBG.jpeg')",
         'tavern': "url('./images.png/tavern2.jpeg')",
-        'hardwon': "url('./images.png/hadwon.png')",
-        'bev': "url('./images.png/bev_0.png')",
-        'moonshine': "url('./images.png/moonshine.png')",
+        'hardwon': "url('./images.png/hardwon.png')",
+        'bev': "url('./images.png/beverly.png')",
+        'moonshine': "url('./images.png/moonshine (1).png')",
         'riz': "url('./images.png/riz-gukgak.png')",
         'adaine': "url('./images.png/Adaine_Abernant.png')",
         'fabian': "url('./images.png/fabian_seacaster.png')",
@@ -48,7 +48,7 @@ module.exports = {
         'kristen': "url('./images.png/kristen_applebees.png')",
         'mac': "url('./images.png/mac.png')",
         'mavris': "url('./images.png/mavris.png')",
-        'nayak': "url('./images.png/nayak.jpeg')",
+        'nyak': "url('./images.png/nyack.png')",
         'tread': "url('./images.png/tread.png')",
         'dave': "url('./images.png/dave.png')",
         'deadeye': "url('./images.png/deadEye.png')",
@@ -56,6 +56,8 @@ module.exports = {
         'aguefort': "url('./images.png/Aguefort.png')",
         'esther': "url('./images.png/Esther_Sinclair.jpeg')",
         'jawbone': "url('./images.png/Jawbone_Reformed.png')",
+        'swords': "url('./images.png/swords.png')",
+        'balnor': "url('./images.png/balnor.jpeg)",
       }
 
     },
