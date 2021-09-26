@@ -49,7 +49,7 @@ export const Form = (props) => {
               changer={(e) => props.setCreator(e.target.value)}
             />
             <div className="p-2">
-              <button className="btn glass text-black hover:-translate-y-1 transform transition hover:bg-indigo-900">{props.type}</button>
+              <button className="btn glass text-black hover:-translate-y-1 transform transition hover:bg-red-900">{props.type}</button>
             </div>
           </form>
         </div>
