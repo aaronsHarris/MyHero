@@ -4,7 +4,7 @@ export const Cards = (props) => {
   const { title, value, text, handleClick } = props
   return (
 
-    <div className="flex items-center px-4 py-10 m-1">
+    <div className="flex items-center px-4 py-10 m-1 text-white">
       <div className="card glass font-hand  text-2xl lg:card-side text-neutral-content shadow-2xl hover:-translate-y-5 transform transition">
         <div className="max-w-md card-body">
           <h2 className="card-title text-3xl">{title}</h2>
