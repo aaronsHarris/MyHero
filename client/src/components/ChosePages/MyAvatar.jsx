@@ -11,6 +11,7 @@ export const MyAvatar = (props) => {
   const handleClick = (e) => {
     e.preventDefault()
     history.push("/MyDesc")
+
     switch (e.target.value) {
       case "a":
         setAvatar("https://www.naddpod.com/assets/campaigns/bahumia/hardwon.png")
@@ -28,7 +29,7 @@ export const MyAvatar = (props) => {
         setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632193378/Aguefort_lwpmwg.png")
         break;
       case "f":
-        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632364244/mavris_oflotw.png")
+        setAvatar("https://www.naddpod.com/assets/campaigns/hotboysummer/mavrus.png")
         break;
       case "g":
         setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632193460/ficus_lgnyji.jpg")
@@ -52,7 +53,7 @@ export const MyAvatar = (props) => {
         setAvatar("https://www.naddpod.com/assets/campaigns/trinyvale/nyack.png")
         break;
       case "n":
-        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632194581/nayak_pywspz.jpg")
+        setAvatar("https://www.naddpod.com/assets/campaigns/trinyvale/nyack.png")
         break;
       case "o":
         setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632193475/fig_faeth_ft8hhe.png")
@@ -72,6 +73,27 @@ export const MyAvatar = (props) => {
       case "t":
         setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632193494/Gilear2_mkzk6j.png")
         break;
+      case "u":
+        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632619652/balnor_fgclet.jpg")
+        break;
+      case "v":
+        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632620024/Gibbons_xew8rw.png")
+        break;
+      case "w":
+        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632620461/Torek_nbyxsz.jpg")
+        break;
+      case "x":
+        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632620599/Old_Cobb_fd8tau.jpg")
+        break;
+      case "y":
+        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632620991/onyx_fh0akt.png")
+        break;
+      case "z":
+        setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632621751/Goldenhoard_eyzaax.png")
+        break;
+        case "1":
+          setAvatar("https://res.cloudinary.com/dbdrox2p9/image/upload/v1632193446/fabian_seacaster_xwtr4q.png")
+          break;
       default: setAvatar("none")
         break
 
@@ -94,7 +116,7 @@ export const MyAvatar = (props) => {
 
       <AvatarCard bg="card bg-aguefort bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Classy" value="e" handleClick={handleClick} />
       
-      <AvatarCard bg="card bg-mavris bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Cool" value="f" handleClick={handleClick} />
+      <AvatarCard bg="card bg-mavrus bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Cool" value="f" handleClick={handleClick} />
 
       <AvatarCard bg="card bg-ficus bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Wanderer" value="g" handleClick={handleClick} />
 
@@ -123,6 +145,19 @@ export const MyAvatar = (props) => {
       <AvatarCard bg="card bg-jawbone bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Reformed" value="s" handleClick={handleClick} />
 
       <AvatarCard bg="card bg-gilear bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Divorced" value="t" handleClick={handleClick} />
+
+      <AvatarCard bg="card bg-balnor bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="#1 Dad" value="u" handleClick={handleClick} />
+
+      <AvatarCard bg="card bg-gibbons bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Counsler" value="v" handleClick={handleClick} />
+
+      <AvatarCard bg="card bg-torek bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Skater" value="w" handleClick={handleClick} />
+
+      <AvatarCard bg="card bg-cobb bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Coot" value="x" handleClick={handleClick} />
+
+      <AvatarCard bg="card bg-onyx bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Goth" value="y" handleClick={handleClick} />
+
+      <AvatarCard bg="card bg-golden bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Business" value="z" handleClick={handleClick} />
+      <AvatarCard bg="card bg-fabian bg-no-repeat bg-cover h-64 w-64 lg:card-side text-neutral-content" title="Swashbuckler" value="1" handleClick={handleClick} />
 
     </div>
   )

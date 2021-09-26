@@ -15,8 +15,8 @@ export const TavernCarrds = (props) => {
               <img className="max-w-sm h-72" src={hero.fields?.avatar} alt="avatars" />
               <div className="card-body max-w-screen-sm">
                 <h2 className="card-title text-5xl">{hero.fields?.name}</h2>
-                <h3 className="italic card-title text-xl">{hero.fields?.title}</h3>
-                <h3 className="text-lg">"{hero.fields?.quote}"</h3>
+                <h3 className="italic card-title text-2xl">{hero.fields?.title}</h3>
+                <h3 className="text-2xl max-w-md">"{hero.fields?.quote}"</h3>
                 <div className="card-actions justify-center">
                   <Link to={`/Details/${hero.id}`}>
                     <button className="btn glass hover:-translate-y-.5 transform transition hover:bg-red-900" onClick={toggle}>See More</button>

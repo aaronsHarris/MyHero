@@ -47,7 +47,7 @@ module.exports = {
         'jens': "url('./images.png/jens.png')",
         'kristen': "url('./images.png/kristen_applebees.png')",
         'mac': "url('./images.png/mac.png')",
-        'mavris': "url('./images.png/mavris.png')",
+        'mavrus': "url('./images.png/mavrus3.png')",
         'nyak': "url('./images.png/nyack.png')",
         'tread': "url('./images.png/tread.png')",
         'dave': "url('./images.png/dave.png')",
@@ -56,8 +56,12 @@ module.exports = {
         'aguefort': "url('./images.png/Aguefort.png')",
         'esther': "url('./images.png/Esther_Sinclair.jpeg')",
         'jawbone': "url('./images.png/Jawbone_Reformed.png')",
-        'swords': "url('./images.png/swords.png')",
-        'balnor': "url('./images.png/balnor.jpeg)",
+        'balnor': "url('./images.png/balnor.jpeg')",
+        'gibbons': "url('./images.png/Gibbons.png')",
+        'torek': "url('./images.png/Torek.jpeg')",
+        'cobb': "url('./images.png/Old_Cobb.jpeg')",
+        'onyx': "url('./images.png/onyx.png')",
+        'golden': "url('./images.png/Goldenhoard.png')",
       }
 
     },

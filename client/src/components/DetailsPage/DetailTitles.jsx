@@ -9,7 +9,7 @@ export const DetailTitles = (props) => {
       <div className=" w-36 m-auto">
         <div className="divider m-0"></div>
       </div>
-      <h3 className=" text-2xl mb-4">{deets}</h3>
+      <h3 className=" text-2xl mb-4 justify-center max-w-2xl">{deets}</h3>
     </>
   )
 }
