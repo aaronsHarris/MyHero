@@ -16,12 +16,12 @@ const Hero = () => {
         </div>
         
         <Link to="/new">
-          <div className="grid flex-grow h-32 card glass rounded-box font-hand place-items-center text-3xl hover:-translate-y-5 transform transition ">
+          <div className="grid flex-grow h-32 card glass rounded-box font-hand place-items-center text-3xl hover:-translate-y-5 transform transition sm:text-white">
             Create a Hero
         </div>
           </Link>
           <Link to="/Tavern">
-          <div className="grid flex-grow h-32 card glass rounded-box place-items-center text-3xl font-hand hover:-translate-y-5 transform transition">
+          <div className="grid flex-grow h-32 card glass rounded-box place-items-center text-3xl font-hand hover:-translate-y-5 transform transition sm:text-white">
             The Tavern
         </div>
           </Link>
