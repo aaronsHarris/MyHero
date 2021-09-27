@@ -5,7 +5,7 @@ const Navbar = ({ toggle }) => {
   return (
     <nav className='font-hand flex justify-between items-center h-16 bg-base-300 text-white sticky top-0 shadow-lg z-10 w-screen' role='navigation'>
       <Link to='/' className=' lg:pl-20 text-3xl font-maven hover:text-red-800'>MyHero</Link>
-      <div className="md:pl-56">
+      <div className="md:pl-56 sm:text-white">
       <Logo />
       </div>
       <div className="px-4 cursor-pointer md:hidden"

@@ -4,7 +4,7 @@ export const Dropdown = ({ isOpen, toggle }) => {
   return (
 
     <div className={
-      isOpen ? "drawer bg-red-900 transition ease-in duration-700" : "hidden"
+      isOpen ? "drawer bg-red-900 transition ease-in duration-700 sm:text-white" : "hidden"
     }
       onClick={toggle}>
 
